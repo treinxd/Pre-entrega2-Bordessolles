@@ -38,7 +38,7 @@ alert("Bienvenido a mi ecommerse!!");
 alert("Actualmente solo tenemos dos categorias. Ingrese la deseada.");
 
 // permito al usuario elegir en que categoria de productos esta interesado.
-let usuarioInput = prompt("(1) - electronicos (2) - joyas ");
+let usuarioInput = prompt("(1) - Electronicos (2) - Joyas ");
 
 
 if (usuarioInput === "1") {
