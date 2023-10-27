@@ -62,7 +62,7 @@ if (usuarioInput === "1") {
 
     producto_seleccionado = products.find(producto => producto.title === producto_nombre)
 
-    // se muestra un confirm ncon detalles del producto.
+    // se muestra un confirm con detalles del producto.
 
     const confirm_compra = confirm(`Nombre: ${producto_seleccionado.title}\n\n Descripción: ${producto_seleccionado.description}\n\n Precio: $${producto_seleccionado.price}\n¿Desea completar la compra?`)
     
@@ -98,7 +98,7 @@ if (usuarioInput === "1") {
 
     producto_seleccionado = products.find(producto => producto.title === producto_nombre)
 
-    // se muestra un confirm ncon detalles del producto.
+    // se muestra un confirm con detalles del producto.
 
     const confirm_compra = confirm(`Nombre: ${producto_seleccionado.title}\n\n Descripción: ${producto_seleccionado.description}\n\n Precio: $${producto_seleccionado.price}\n¿Desea completar la compra?`)
     
